@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Results</title>
+  </head>
+  <body>
+    <h1>Search Results</h1>
+    <ul>
+      <?php
+        $query = $_GET['query'];
+        // Your code to retrieve and process search results based on the query parameter
+        $results = getSearchResults($query);
+        foreach ($results as $result) {
+          echo '<li>';
+          echo '<h2>' . $result['title'] . '</h2>';
+          echo '<p>' . $result['description'] . '</p>';
+          echo '</li>';
+        }
+      ?>
+    </ul>
+  </body>
+</html>
