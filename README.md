@@ -27,3 +27,12 @@ To create a companies HTML file to display a list of featured-job, categories an
 In this example, we're sending a JSON payload in the body of the request with the onboard information. The Content-Type header is set to application/json to indicate that the request body contains JSON data. The JSON.stringify() method is used to convert the JavaScript object to a JSON string.
 
 Note that this is just an example, and the specific format of the request and the response will depend on the API endpoint that you are using.
+
+#page
+categories
+companies
+featured-job
+marketing-categories
+product-categories
+sales-categories
+technology-categories
