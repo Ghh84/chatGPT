@@ -23,3 +23,7 @@ To create a companies HTML file to display a list of featured-job, categories an
     To style the page, you can add CSS styles within a <style> tag in the <head> section, or link to an external stylesheet using the <link> tag.
 
     Preview the file in a web browser to see the result.
+
+In this example, we're sending a JSON payload in the body of the request with the onboard information. The Content-Type header is set to application/json to indicate that the request body contains JSON data. The JSON.stringify() method is used to convert the JavaScript object to a JSON string.
+
+Note that this is just an example, and the specific format of the request and the response will depend on the API endpoint that you are using.
